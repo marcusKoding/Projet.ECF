@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gradient-custom {
+  background: rgb(9, 30, 121);
+  background: linear-gradient(
+    238deg,
+    rgba(9, 30, 121, 0.7142566499255952) 18%,
+    rgba(255, 193, 0, 1) 100%
+  );
+}
+.title {
+  margin-top: 2rem;
+}
