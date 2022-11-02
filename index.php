@@ -1,12 +1,11 @@
 <?php
     session_start();
-
     include_once('./database.php');
-
     $afficher_membres = $pdo->prepare("SELECT * FROM user");
-
     $afficher_membres->execute();
 
+?>
+<?php
 
 ?>
 <!DOCTYPE html>
@@ -119,3 +118,4 @@
     </section>
 </body>
 </html>
+
